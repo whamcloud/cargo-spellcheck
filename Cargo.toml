@@ -1,9 +1,9 @@
 [package]
 name = "cargo-spellcheck"
-version = "0.15.0"
+version = "0.15.5"
 authors = ["Bernhard Schuster <bernhard@ahoi.io>"]
 edition = "2021"
-rust-version = "1.76.0"
+rust-version = "1.85.0"
 repository = "https://github.com/drahnr/cargo-spellcheck.git"
 homepage = "https://github.com/drahnr/cargo-spellcheck"
 license = "MIT OR Apache-2.0"
@@ -35,10 +35,10 @@ xz2 = "0.1"
 
 [dependencies]
 
-doc-chunks = { version = "0.2.0", path = "./doc-chunks" }
+doc-chunks = { version = "0.2.1", path = "./doc-chunks" }
 
 color-eyre = "0.6"
-cargo_toml = "0.20"
+cargo_toml = "0.21"
 console = "0.15"
 crossterm = "0.27"
 # for the config file
